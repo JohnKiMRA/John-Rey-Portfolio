@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b9d523c030.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/JRA LOGO.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>VA/Graphics Designer</p>
+            <h1>Hi!, I'm<span> John Rey</span><br>from Philippines</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about----------- -->
+<div id="about"></div>
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/PROFILE C.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Working for over a decade in different corporate companies, with all the experiences I now would like to jump on working as freelancer or with any type of terms which makes me more efficient and effective with less supervisions and still can able to contribute and deliver along with company's goals and missions.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Virtual Assistant</span><br>Email Account Management<br>Social Media Account Manangement<br>Customer Service<br>Data Entry</li>
+                        <li><span>Graphics Designer</span><br>Logo Vector Design<br>Branding Design<br>Photo Manipulation<br>Video Editing<br>Web & Landing Page Design<br>Print & Digital Design<br>Motion Graphics Design</li>
+                        <li><span>Lead Generation Appointment Setter</span><br>Email Marketing<br>Social Media Marketing<br>Lead Generation<br>Appoinment Setting</li>
+                        <li><span>Data Aquisition</span><br>Profiling<br>Research<br>Management<br>Mining</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Oct 2022 - Nov 2023</span><br>Digital Marketing Associate at Callbox Inc.<br><ol><i>Creative Team Client Service Department (NAM & APAC)</i><br>&nbsp;&nbsp;Campaign Marketing Collaterals<br>&nbsp;&nbsp;Landing Pages with Logo Design<br>&nbsp;&nbsp;Social Media Banners, Carousels &  Headers<br>&nbsp;&nbsp;Electronic Direct Mail Designs.<br><br><i>Creative & Support (Internal/Company)</i><br>&nbsp;&nbsp;Creates and manages graphic materials for the following:<br>&nbsp;&nbsp;• Company events / announcements.<br>&nbsp;&nbsp;• Company van exterior design.<br>&nbsp;&nbsp;• Events Video editing.<br>&nbsp;&nbsp;• Redesigned company ID.</ol></li>
+                        <li><span>Feb 2019 - Oct 2022</span><br>Lead Generator Appointment Setter / Administration Officer at BConnected Marketing Consulting<br><ol><i>Appointment Setter and Lead Generator </i><br>&nbsp;&nbsp;Client Service Department<br>&nbsp;&nbsp;Sales Deparment<br>&nbsp;&nbsp;Office digital and printing materials.<br>&nbsp;&nbsp;Social Media Marketing<br><br><i>Administration Officer</i><br>&nbsp;&nbsp;Administration Officer<br>&nbsp;&nbsp;Human Resource Officer<br>&nbsp;&nbsp;Talent Aquisition Officer<br>&nbsp;&nbsp;Payroll Officer</ol></li>
+                        <li><span>Jan 2017 - Jan 2019</span><br>Email and Social Media Marketing Specialist / Graphics Designer at Callbox Inc.<br><ol><i>Appointment Setter and Lead Generator</i><br>&nbsp;&nbsp;Campaign Marketing Collaterals<br>&nbsp;&nbsp;Landing Pages with Logo Design<br>&nbsp;&nbsp;Social Media Banners, Carousels &  Headers<br>&nbsp;&nbsp;Electronic Direct Mail Designs.<br><br><i>Graphics Designer</i><br>&nbsp;&nbsp;Client Service Marketing Materials<br>&nbsp;&nbsp;• Landing Page<br>&nbsp;&nbsp;• Office digital , awards and printing materials.<br>&nbsp;&nbsp;• Adwords Graphics Materials<br>&nbsp;&nbsp;Admin GD Support<br>&nbsp;&nbsp;• Company events / announcements.<br>&nbsp;&nbsp;• Office digital , awards and printing materials.</ol></li>
+                        <li><span>May 2014 - Oct 2015</span><br>Back Office & Graphics Designer at Skynet Global Solutions<br><ol><i>&nbsp;&nbsp;Back Officer Support<br>&nbsp;&nbsp;Graphics Designer</i></ol></li>
+                        <li><span>Jan 2013 - April 2014</span><br>Virtual Assistant & Customer Service Representative at Six Eleven Global Solutions<br><ol><i>Virtual Assistant Campaign (123 Employee)</i><br>&nbsp;&nbsp;Email & Social Media Account Management and Marketing and Boosting,<br>&nbsp;&nbsp;Branding, Clients’ Materials Creation and Posting, Research,<br>&nbsp;&nbsp;CRM (Data Entry), Data Mining, Adwords, Blog Posting,<br>&nbsp;&nbsp;Content Marketing, Photo and Video Editing.<br><br><i>Customer Service Representative</i><br>&nbsp;&nbsp;CSR (Retention)<br>&nbsp;&nbsp;• Male Enhancement Supplement<br>&nbsp;&nbsp;• Dietary Supplement</ol></li>
+                        <li><span>Jan 2010 - Jan 2012</span><br>Administration Support at DieraSun Coats LLC, Dubai, UAE<br><ol><i>Archive Clerk<br>Quantity Surveyor<br>Graphics Designer</i></ol></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2005-2009</span><br>University of SouthEastern Philippines<br><ol><i>Diploma of Technology</i></ol></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-desktop"></i>
+                <h2>Virtual Assistant</h2>
+                <p>Performs a wide range of tasks remotely, freeing up time and resources for my clients to focus on their core activities, offering assistance in areas such as administrative support, customer service, social media management, data entry, bookkeeping, travel arrangements, email management, content creation, and more.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <h2>Graphics Design</h2>
+                <p>Diverse and commercial awareness that develops foundation which is an effecient process on providing such services Logo & Branding Creation, Photo Manipulation, Social Media Banners, Email Headers, Landing Page, Web, Print & Digital Designs and more.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-bullhorn"></i>
+                <h2>EM & SMM</h2>
+                <p>As an experienced lead generation and appointment setter this specialized service offered by companies or agencies to help businesses identify and connect with potential customers or clients. A combination of targeted outreach, prospecting, and communication to generate interest in a product or service and schedule appointments or meetings with qualified leads.</p>
+                <a href="#">Learn more</a>
+            </div>            
+        </div>
+    </div>
+</div>
+
+<!-- ----------portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work 1.png">
+                <div class="layer">
+                    <h3>Logo Designs</h3>
+                    <p>The vital aspect of branding for any business or organization. Whether you're starting a new venture or looking to refresh your brand image, having a unique and memorable logo can make a significant impact. I can assist you in crafting a logo that effectively represents your brand identity and resonates with your target audience.<br><br>Here's how my logo design service typically works:<br><br><b>Consultation:</b> Discussion of your brand, target audience, and design preferences. Understanding your vision and goals helps me tailor the logo to your specific needs.<br><br><b>Research:</b> I conduct thorough research into your industry, competitors, and current design trends to ensure your logo stands out and remains relevant.<br><br><b>Concept Development:</b> Based on our consultation and research, I'll create several initial design concepts for your review. These concepts will vary in style, color, and typography, providing you with diverse options to choose from.<br><br><b>Feedback and Revisions:</b> Your feedback is crucial in refining the initial concepts. Feel free with your input and collaborate with you to make any necessary revisions until we achieve a design that perfectly aligns with your vision.<br><br><b>Finalization:</b> Once you're satisfied with the design, I'll deliver the final logo files in various formats suitable for both print and digital use typically include all formats.<br><br>Throughout the process, my goal is to create a logo that not only visually represents your brand but also communicates its values and personality effectively.</p>
+                    </div>
+            </div>
+            <div class="work">
+                <img src="images/work 2.png">
+                <div class="layer">
+                    <h3>Graphics Design</h3>
+                    <p>Offering a range of design solutions to meet your needs across various platforms and mediums. Here's how my service typically works:<br><br><b>Initial Consultation:</b> We begin by discussing your project requirements, goals, target audience, and any specific preferences you may have. Understanding your vision enables me to create designs that effectively communicate your message.<br><br><b>Concept Development:</b> Based on our consultation, I develop initial design concepts that align with your brand identity and objectives. These concepts may include designs for logos, business cards, brochures, flyers, social media graphics, website elements, and more, depending on your needs.<br><br><b>Feedback and Revisions:</b> I value your feedback and actively involve you in the design process. You'll have the opportunity to review the initial concepts and provide input for revisions. I'll work closely with you to refine the designs until they meet your expectations.<br><br><b>Finalization:</b> Once the designs are approved, I prepare the final files in the required formats for print or digital use. This may include vector formats for scalability and raster formats optimized for specific platforms or applications.<br><br><b>Delivery:</b> I deliver the finalized design files to you promptly, ensuring that you have everything you need to implement the designs across your desired channels.<br><br>Throughout the process, my focus is on delivering high-quality designs that effectively convey your message, enhance your brand image, and resonate with your target audience. Whether you need a complete branding package or individual design assets, I'm here to provide professional and creative solutions tailored to your specific requirements.</p>
+                    </div>
+            </div>
+            <div class="work">
+                <img src="images/work 3.png">
+                <div class="layer">
+                    <h3>Video Editing</h3>
+                    <p>A comprehensive solutions to enhance your video content and bring your vision to life. Here's how my service typically works:<br><br><b>Initial Consultation:</b> We start by discussing your project requirements, goals, and vision for the final video. Whether you need a promotional video, social media content, educational material, or any other type of video, understanding your objectives is crucial for creating an effective end product.<br><br><b>Submission:</b> You provide me with the raw video footage, along with any additional assets such as logos, graphics, music, and voiceovers that you want to include in the final edit.<br><br><b>Editing Process:</b> Meticulously edit the footage according to your specifications. This may involve tasks such as trimming, cutting, rearranging clips, adding transitions, applying visual effects, adjusting colors, and integrating audio elements.<br><br><b>Revisions:</b> Once the initial edit is complete, you'll have the opportunity to review the video and provide feedback. I'll make any necessary revisions based on your feedback until you're completely satisfied with the final result.<br><br><b>Finalization:</b> Once the video meets your approval, I'll finalize the edit and prepare the video files in the desired formats for distribution. Formats is optimized for various platforms such as YouTube, Vimeo, social media, or DVD/Blu-ray.<br><br><b>Delivery:</b> The finalized video files will be senmt to you promptly, ensuring that you have everything you need to share your video content with your audience.<br><br>The goal is to create a polished and professional video that effectively communicates your message, engages your audience, and meets your objectives</p>
+                </div>
+            </div>
+        </div>
+        <a href="#contact" class="btn">Contact me</a>
+    </div>
+</div>
+<!-- -----------contact------------ -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> johnralegre@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 09082991871</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/kim.chui.9026040/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/johnreyalegre15018a158/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/CV-John-Rey-Alegre.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © John Rey Alegre Portfolio</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+        
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx3q6HaCLOc0CFcACl-wXfDGuRZNJSV1ogutQkwbxzvL6qERtpTTVMJ_8GZxYP4TlC2_A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
